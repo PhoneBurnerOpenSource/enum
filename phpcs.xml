@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+
+<ruleset name="PhoneBurner Public Coding Standards">
+    <config name="installed_paths" value="vendor/escapestudios/symfony2-coding-standard" />
+    <file>src</file>
+    <file>test</file>
+    <exclude-pattern>*/vendor/*</exclude-pattern>
+    <!-- Configure default output style. -->
+
+    <rule ref="PSR12"></rule>
+    <rule ref="Generic.Arrays.DisallowLongArraySyntax"></rule>
+    <rule phpcbf-only="true" ref="Symfony.Arrays.MultiLineArrayComma"></rule>
+</ruleset>
