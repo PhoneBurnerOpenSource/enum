@@ -1,4 +1,15 @@
 {
+    "name": "phoneburner/enum",
+    "description": "A way to work with Enum values objects.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["psr", "psr-7", "http", "enum"],
+    "authors": [
+        {
+            "name": "Andy Snell",
+            "email": "andy@phoneburner.com"
+        }
+    ],
     "require-dev": {
         "phpunit/phpunit": "^9.5"
     },
